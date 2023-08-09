@@ -1,0 +1,64 @@
+.content_5{
+    width: 600px;
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    }
+    .nav_1{
+        display: flex;
+    height: 65px;
+    padding: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    }
+    .img_1{
+        padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 2px solid var(--gray-blue-grey-blue-97, #F5F6F7);
+    background: var(--white-white, #FFF);
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+    }
+    p{
+        color: var(--gray-blue-grey-blue-70, #7D8FB3);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+    }
+    p:hover{
+        color: var(--purple-purple, #83F);
+        cursor: pointer;
+    }
+    .buying{
+        display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    }
+     .cashboard{
+        display: flex;
+    height: 30px;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    background: var(--green-green-5, rgba(41, 204, 57, 0.05));
+     }
+     h5:hover{
+        color: rgb(4, 167, 4);
+        cursor: pointer;
+     }
+     
+    
